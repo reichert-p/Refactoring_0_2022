@@ -8,8 +8,6 @@ public class MovieTest {
         Movie m = new Movie("BttF", 3);
         Assert.assertEquals(m.getPriceCode(),3);
         Assert.assertEquals(m.getTitle(), "BttF");
-        m.setPriceCode(77);
-        Assert.assertEquals(m.getPriceCode(),77);
     }
 
 
