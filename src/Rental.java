@@ -3,8 +3,8 @@ class Rental {
     private int daysRented;
 
     public Rental(Movie movie, int daysRented) {
-        movie = movie;
-        daysRented = daysRented;
+        this.movie = movie;
+        this.daysRented = daysRented;
     }
     public int getDaysRented() {
         return daysRented;
